@@ -1,0 +1,28 @@
+.conteiner {
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+
+.content {
+  width: 302px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.5s;
+}
+
+.item:hover {
+  background-color: #1b191928;
+}
